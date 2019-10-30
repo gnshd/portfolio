@@ -767,20 +767,18 @@ color: #eeeeee;
   text-align: left;
   float: left;
   overflow: hidden;
-  padding: 100px 0.75rem 0;
+  padding: 20px 0.75rem 0;
 }
 .tree-container:before {
   position: absolute;
   width: 5px;
   background: #795548;
-  top: 0px;
   left: 0.75rem;
   margin-left: 25%;
   content: '';
   height: 100%;
 }
 .leaf-row {
-  margin-bottom: 150px;
   position: relative;
 }
 .leaf-card {
@@ -831,15 +829,6 @@ color: #eeeeee;
   background-position: center center;
   margin: -140px 0 1.5rem 30%;
 }
-.leaf-row h2:after {
-  position: absolute;
-  width: 4%;
-  height: 5px;
-  background: #795548;
-  top: 35px;
-  left: 26%;
-  content: '';
-}
 .leaf-small.leaf-circle{
   width: 100px;
   height: 100px;
@@ -865,10 +854,6 @@ color: #eeeeee;
 @media (max-width: 414px) {
   .tree-container:before {
     margin-left: 15%;
-  }
-  .leaf-row h2:after {
-    width: 14%;
-    left: 16%;
   }
   .leaf-card {
     left: 20%;
