@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Gai">
+
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org/",
+    "@type": "WebPage",
+    "name": "gai portfolio Website",
+    "creator": {
+      "@type": "Person",
+      "name": "Gai Nishida"
+    },
+    "image": "https://hodalab.com/portfolio/img/hoda_portfolio.jpg",
+    "url": "https://hodalab.com/portfolio/",
+    "description": "WebエンジニアHodaのポートフォリオサイトです。私がこれまでに手がけた制作物、身につけたスキルをまとめています。",
+    "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/us/deed.en_US"
+  }
+  </script>
+
+  <title>gai portfolio</title>
+
+  <link rel="alternate" href="https://hodalab.com/en/portfolio/" hreflang="en" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Capriola" rel="stylesheet">
+  <link rel="stylesheet" href="materialize/css/materialize.min.css">
+  <link rel="stylesheet" href="aos-master/dist/aos.css">
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen">
+  <link rel="shortcut icon" type="image/png" href="img/hodalab_logo_16x16.png">
+
+  <meta name="description" content="WebエンジニアHodaのポートフォリオサイトです。私がこれまでに手がけた制作物、身につけたスキルをまとめています。">
+  <meta name="keywords" content="Hoda,Webエンジニア,ポートフォリオ">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="gai portfolio">
+  <meta property="og:url" content="https://hodalab.com/portfolio/">
+  <meta property="og:description" content="WebエンジニアHodaのポートフォリオサイトです。私がこれまでに手がけた制作物、身につけたスキルをまとめています。">
+  <meta property="og:image" content="https://hodalab.com/portfolio/img/hodalab_icatch_1200x630.png">
+  <meta property="og:site_name" content="gai portfolio">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="fb:app_id" content="1894208710896951">
+  <meta name="twitter:site" content="@Gai_Nishida">
+  <meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body>
+
+  <header>
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper container">
+          <a href="https://hodalab.com/" id="logo-container" class="brand-logo" aria-label="Link to hodalab.com">
+            <svg style="isolation:isolate" viewBox="0 0 64 64" width="64" height="64"><rect x="17.858" y="17.858" width="28.284" height="28.284" transform="matrix(0.707,-0.707,0.707,0.707,-13.255,32)" fill="none" vector-effect="non-scaling-stroke" stroke-width="2.759" stroke="rgb(121,198,182)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/><path d=" M 15.556 22.222 C 15.556 18.543 18.543 15.556 22.222 15.556 C 25.902 15.556 28.889 18.543 28.889 22.222 C 28.889 25.902 25.902 28.889 22.222 28.889 C 18.543 28.889 15.556 25.902 15.556 22.222 Z " fill="none" vector-effect="non-scaling-stroke" stroke-width="2.759" stroke="rgb(144,202,249)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/><polygon points="35.556,44.559,43.552,32.889,48.889,46.222" fill="none" vector-effect="non-scaling-stroke" stroke-width="2.759" stroke="rgb(237,146,159)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/><line x1="27.556" y1="36.444" x2="16.889" y2="47.111" vector-effect="non-scaling-stroke" stroke-width="2.759" stroke="rgb(255,195,93)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/></svg>
+          </a>
+          <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons led-color-of-icon">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#" class="scroll-to-top-li">トップ</a></li>
+            <li><a href="#about-this-site">このサイトについて</a></li>
+            <li class="dropdown"><a href="#about-me">ポートフォリオ</a>
+              <ul class="dropdown-list">
+                <li><a href="#projects">制作物</a></li>
+                <li><a href="#skills">スキル</a></li>
+                <li><a href="#profile">プロフィール</a></li>
+              </ul>
+            </li>
+            <li><a href="#services">お仕事</a></li>
+            <li><a href="#contact">連絡先</a></li>
+            <li><a href="https://hodalog.com/" target="_blank" rel="noopener">ブログ</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <ul id="nav-mobile" class="side-nav">
+      <li><a href="#" class="scroll-to-top-li">トップ</a></li>
+      <li><a href="#about-this-site">このサイトについて</a></li>
+      <li>
+        <ul class="collapsible collapsible-accordion">
+          <li>
+            <a class="collapsible-header">プロフィール<i class="material-icons right">arrow_drop_down</i></a>
+            <div class="collapsible-body">
+              <ul>
+                <li><a href="#projects">制作物</a></li>
+                <li><a href="#skills">スキル</a></li>
+                <li><a href="#profile">プロフィール</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </li>
+      <li><a href="#services">お仕事</a></li>
+      <li><a href="#contact">連絡先</a></li>
+      <li><a href="https://hodalog.com" target="_blank" rel="noopener">ブログ</a></li>
+    </ul>
+  </header>
+
+  <div id="top-banner-container" class="valign-wrapper led">
+    <div class="container">
+      <div class="row center">
+        <h1 class="header col s12 text-lighten-2" data-aos="zoom-in" data-aos-duration="700" data-aos-once="true">HodaLab!</h1>
+        <h5 class="text-for-desktop" data-aos="fade-up" data-aos-delay="250" data-aos-duration="700" data-aos-once="true">HODA Web Engineering Laboratory</h5>
+        <h5 class="text-for-phone" data-aos="fade-up" data-aos-delay="250" data-aos-duration="700" data-aos-once="true">HODA Web Engineering Laboratory</h5>
+        <div class="controller" data-aos="fade-up" data-aos-delay="750" data-aos-duration="700">
+          <svg style="isolation:isolate" viewBox="0 0 300 200" width="300" height="200"><path d=" M 271.317 173.993 C 262.656 180.269 249.129 179.804 240.801 171.884 C 231.963 163.481 226.485 153.311 218.193 143.15 Q 214.26 138.338 201.633 138.554 Q 165.267 139.172 147.132 138.77 Q 132.369 138.653 98.328 138.77 Q 85.704 138.548 81.774 143.366 C 73.479 153.524 68.004 163.688 59.163 172.097 C 50.841 180.011 37.311 180.482 28.647 174.2 C 16.302 165.257 13.497 157.637 16.65 145.694 C 21.603 126.923 31.233 89.303 36.012 70.484 C 45.516 33.068 54.084 26.972 87.663 25.328 C 95.424 24.95 105.561 24.899 112.02 35.408 C 114.876 40.058 119.718 39.314 124.257 39.305 L 175.707 39.305 C 180.249 39.314 185.082 39.848 187.947 35.198 C 194.4 24.689 204.534 24.734 212.298 25.115 C 245.877 26.762 254.487 32.843 263.952 70.274 C 270.291 95.366 276.12 118.901 283.314 145.481 C 286.545 157.409 283.665 165.047 271.317 173.993 Z " fill-rule="evenodd" fill="rgb(255,255,255)"></path></svg>
+          <div id="color-switch">
+            <div id="led-btn-red" class="btn btn-floating pulse">R</div>
+            <div id="led-btn-green" class="btn btn-floating pulse on">G</div>
+            <div id="led-btn-blue" class="btn btn-floating pulse">B</div>
+          </div>
+          <div id="four-way-button">
+            <div id="top-key"><i class="material-icons">arrow_drop_up</i></div>
+            <div id="left-key"><i class="material-icons">arrow_drop_up</i></div>
+            <div id="right-key"><i class="material-icons">arrow_drop_up</i></div>
+            <div id="bottom-key"><i class="material-icons">arrow_drop_down</i></div>
+            <div id="center-key"><i class="material-icons">fiber_manual_record</i></div>
+          </div>
+          <div id="start-button"></div>
+        </div>
+
+        <div class="scroll-to-bottom-btn text-for-desktop" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="700">
+          <a href="#about-this-site" class=""><i class="material-icons waves-effect waves-light">keyboard_arrow_down</i></a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="about-this-site" class="section valign-wrapper">
+    <div class="container">
+      <h2 class="center grey-text text-darken-3">About this site</h2>
+      <div class="row">
+
+        <div class="col s12">
+          <p class="grey-text text-darken-3 center-align text-for-desktop">ここはWebエンジニアHodaのポートフォリオサイトです。<br>
+            これまでに手がけた制作物、身につけたスキルをまとめています。<br>
+            あなたに、私のことをもっと深く知ってほしいと思って作りました。<br>
+            どうぞお茶でも飲みながらごゆるりとサイト内を散策してください。</p>
+          <p class="grey-text text-darken-3 text-for-phone">ここはWebエンジニアHodaのポートフォリオサイトです。私がこれまでに手がけた制作物、身につけたスキルをまとめています。あなたに、私のことをもっと深く知ってほしいと思って作りました。どうぞお茶でも飲みながらごゆるりとサイト内を散策してください。</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="about-me" class="section valign-wrapper">
+    <div class="container">
+      <h2 class="center">About me</h2>
+      <div class="row">
+
+        <div class="col s12 m6">
+          <div class="left">
+            <img id="hodacat" class="center" src="img/hodacat.png" alt="hodacat web engineer" width="150" height="150" data-aos-duration="300" data-aos="zoom-in" data-aos-once="true">
+          </div>
+          <p>石川県出身のWebエンジニア。高専で機械工学、技科大で材料工学を学んだのち、メーカーで温度センサーの材料開発・生産に従事。その後Webの技術にひかれ、31才でIT業界へ転職。インフラからフロントサイドまで幅広く業務を経験後、WebエンジニアとしてWebアプリケーション・システムの開発を行う。</p>
+        </div>
+
+        <div class="col s6 m3" data-aos="fade-up" data-aos-duration="500" data-aos-once="true">
+          <div class="card">
+            <div class="card-image valign-wrapper">
+              <div class="image-wrapper">
+                <div class="div-cover" style="background-image: url(img/drummer.jpg)">
+                </div>
+              </div>
+              <span class="card-title"><span>I love</span><br> music.</span>
+            </div>
+          </div>
+        </div>
+        <div class="col s6 m3" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
+          <div class="card">
+            <div class="card-image valign-wrapper">
+              <div class="image-wrapper">
+                <div class="div-cover" style="background-image: url(img/coding.jpg)">
+                </div>
+              </div>
+              <span class="card-title"><span>I do</span><br> Web engineering.</span>
+            </div>
+          </div>
+        </div>
+        <div class="col s6 m3" data-aos="fade-up" data-aos-duration="900" data-aos-once="true">
+          <div class="card">
+            <div class="card-image valign-wrapper">
+              <div class="image-wrapper">
+                <div class="div-cover" style="background-image: url(img/take_a_walk.jpg)">
+                </div>
+              </div>
+              <span class="card-title"><span>I like</span><br> taking a walk.</span>
+            </div>
+          </div>
+        </div>
+        <div class="col s6 m3" data-aos="fade-up" data-aos-duration="1100" data-aos-once="true">
+          <div class="card">
+            <div class="card-image valign-wrapper">
+              <div class="image-wrapper">
+                <div class="div-cover" style="background-image: url(img/berlin_cafe.jpg)">
+                </div>
+              </div>
+              <span class="card-title"><span>I want</span><br> to live in Berlin.</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="projects" class="section valign-wrapper">
+    <div class="container">
+      <div class="row">
+        <h3 class="center">Works</h3>
+        <p class="center">腕によりをかけて制作した、愛すべき成果物たちをご紹介します。</p>
+
+        <div class="col s12 m4">
+          <div data-aos="fade-up" data-aos-once="true">
+            <a href="#" class="modal-trigger" aria-label="Lind to modal window">
+              <div class="card hoverable">
+                <div class="card-image valign-wrapper">
+                  <div class="image-wrapper">
+                    <div class="div-cover" style="background-image: url(img/sample_app1.png)">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <p class="center-align project-title grey-text text-darken-3">The Sample App</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div data-aos="fade-up" data-aos-once="true">
+            <a href="#" class="modal-trigger" aria-label="Lind to modal window">
+              <div class="card hoverable">
+                <div class="card-image valign-wrapper">
+                  <div class="image-wrapper">
+                    <div class="div-cover" style="background-image: url(img/webserver1.png)">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <p class="center-align project-title grey-text text-darken-3">クラウドWebサーバー構築</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div data-aos="fade-up" data-aos-once="true">
+            <a href="#" class="modal-trigger" aria-label="Lind to modal window">
+              <div class="card hoverable">
+                <div class="card-image valign-wrapper">
+                  <div class="image-wrapper">
+                    <div class="div-cover" style="background-image: url(img/hodalog3-1.jpg)">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <p class="center-align project-title grey-text text-darken-3">Hodalog</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div data-aos="fade-up" data-aos-once="true">
+            <a href="#" class="modal-trigger" aria-label="Lind to modal window">
+              <div class="card hoverable">
+                <div class="card-image valign-wrapper">
+                  <div class="image-wrapper">
+                    <div class="div-cover" style="background-image: url(img/hoda_portfolio.jpg)">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <p class="center-align project-title grey-text text-darken-3">gai portfolio</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div data-aos="fade-up" data-aos-once="true">
+            <a href="#" class="modal-trigger" aria-label="Lind to modal window">
+              <div class="card hoverable">
+                <div class="card-image valign-wrapper">
+                  <div class="image-wrapper">
+                    <div class="div-cover" style="background-image: url(img/Lucy.jpg)">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <p class="center-align project-title grey-text text-darken-3">ルーシーのSlack Bot</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div data-aos="fade-up" data-aos-once="true">
+            <a href="#" class="modal-trigger" aria-label="Lind to modal window">
+              <div class="card hoverable">
+                <div class="card-image valign-wrapper">
+                  <div class="image-wrapper">
+                    <div class="div-cover" style="background-image: url(img/macrobu1.jpg)">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <p class="center-align project-title grey-text text-darken-3">マクロ部</p>
+          </div>
+        </div>
+
+        <div class="modal">
+          <div class="modal-content">
+            <div class="col s12 m4">
+              <h4 class="center-align"><span>The Sample App</span></h4>
+              <p>Ruby on Railsのチュートリアルに沿って制作したWebアプリケーションです。Twitterのように小さなコメントを投稿したり、ユーザーをフォローして極簡単なコミュケーションが取れます。このチュートリアルを通してテスト駆動開発、CRUD、ユーザー登録などの基礎的な考え方を学ぶことができました。今後は実務レベルでこれらの技術を活用することを考えています。</p>
+              <p>
+                <a href="https://rails-sample-app-by-hodaka.herokuapp.com/" target="_blank" rel="noopener"><img src="img/video-icon.svg" alt="video-icon" class="svg-icon"> Demo</a>
+                <br>
+                <a href="https://github.com/hodanov/ruby-on-rails-tutorial" target="_blank" rel="noopener"><img src="img/github-icon.svg" alt="github-icon" class="svg-icon"> GitHub</a>
+              </p>
+
+              <h5 class="center-align"><span>使用言語など</span></h5>
+              <p>Ruby on Rails, HTML/CSS(SASS), Bulma, jQuery, Sqlite（開発), Postgresql（本番）, Heroku, SendGrid</p>
+            </div>
+            <div class="col s12 m8">
+              <div class="thumbnails">
+                <img src="img/sample_app1.png" alt="Ruby on Rails Sample App|トップ画面">
+                <img src="img/sample_app2.png" alt="Ruby on Rails Sample App|サインアップ画面" class="z-depth-2">
+                <img src="img/sample_app3.png" alt="Ruby on Rails Sample App|ログイン画面" class="z-depth-2">
+                <img src="img/sample_app4.png" alt="Ruby on Rails Sample App|投稿画面1" class="z-depth-2">
+                <img src="img/sample_app5.png" alt="Ruby on Rails Sample App|投稿画面2" class="z-depth-2">
+                <img src="img/sample_app6.png" alt="Ruby on Rails Sample App|ユーザー一覧" class="z-depth-2">
+                <img src="img/sample_app7.png" alt="Ruby on Rails Sample App|他ユーザーの投稿一覧" class="z-depth-2">
+              </div>
+              <div class="mainImage">
+                <a href="https://rails-sample-app-by-hodaka.herokuapp.com/" target="_blank" rel="noopener">
+                  <img src="img/sample_app1.png" alt="" class="responsive-img z-depth-2">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal">
+          <div class="modal-content">
+            <div class="col s12 m4">
+              <h4 class="center-align"><span>クラウドWebサーバー構築</span></h4>
+              <p>WordPressの個人ブログを快適に運用するためのシステムをAWSで構築しました。EC2にDockerのコンテナを建てて、そのコンテナの中でWebサーバーを動かしています。S3とEC2をVPCエンドポイントで結び、S3にメディアファイルを保管しています。さらにCronを利用して、コンテナごとS3へぽいぽい自動バックアップする仕組みを作りました。</p>
+              <p>サーバーに異常があった場合でもすぐに気づけるよう、MackerelとUptime Robotで監視しています。</p>
+              <h5 class="center-align"><span>使用言語など</span></h5>
+              <p>AWS EC2/S3/IAM, Docker, Mackerel, Uptime Robot</p>
+            </div>
+            <div class="col s12 m8">
+              <div class="thumbnails">
+                <img src="img/webserver1.png" alt="AWSとDockerで構築したWebサーバー構成図">
+                <img src="img/webserver2.png" alt="Mackerelのメトリクス監視の様子" class="z-depth-2">
+                <img src="img/webserver3.png" alt="Uptime Robotの外形監視の様子" class="z-depth-2">
+              </div>
+              <div class="mainImage">
+                <img src="img/webserver1.png" alt="" class="responsive-img z-depth-2">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal">
+          <div class="modal-content">
+            <div class="col s12 m4">
+              <h4 class="center-align"><span>Hodalog</span></h4>
+              <p>WordPressのオリジナルテーマを作成し、個人ブログを運営しています。Googleが提唱しているマテリアルデザインを参考に設計しました。スライダーなどの各種パーツは外部のツールに頼らず、軽量化のため自作しました。サーバーはAWSを利用しています。</p>
+              <p>SSL/TLS証明書の設定やバックアップを自動化し、メンテナンスがスムーズに行えるよう、DevOps面にも気を使っています。</p>
+              <p>
+                <a href="https://hodalog.com" target="_blank" rel="noopener"><img src="img/video-icon.svg" alt="video-icon" class="svg-icon"> Demo</a>
+                <br>
+                <a href="https://github.com/hodanov/the-pochi" target="_blank" rel="noopener"><img src="img/github-icon.svg" alt="github-icon" class="svg-icon"> GitHub</a>
+              </p>
+              <h5 class="center-align"><span>使用言語など</span></h5>
+              <p>HTML/CSS, jQuery, WordPress, Bootstrap4, Git, GitLab, Docker, Certbot, AWS(EC2/S3/IAM)</p>
+            </div>
+            <div class="col s12 m8">
+              <div class="thumbnails">
+                <img src="img/hodalog3-1.jpg" alt="Hodalog|トップ画面">
+                <img src="img/hodalog3-2.jpg" alt="Hodalog|モックアップ画像" class="z-depth-2">
+                <img src="img/hodalog3-3.jpg" alt="Hodalog|モックアップ画像（スマホ）" class="z-depth-2">
+              </div>
+              <div class="mainImage">
+                <a href="https://hodalog.com/" target="_blank" rel="noopener">
+                  <img src="img/hodalog3-1.jpg" alt="" class="responsive-img z-depth-2">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal">
+          <div class="modal-content">
+            <div class="col s12 m4">
+              <h4 class="center-align"><span>gai portfolio</span></h4>
+              <p>このWebページです。HTMLとCSS、jQueryを使用し、1枚のランディングページに仕上げました。プロフィールセクションではドミノ倒しのような爽快感のある表現ができたかなと思います。トップ画面のコントローラーのボタンに色を変更するギミックを仕込みました。取り入れたいアイディアはまだいくつかあるのですが、実現できるスキルがないので保留状態です。手を加えればもっとよくなるサイトです。</p>
+              <h5 class="center-align"><span>使用言語など</span></h5>
+              <p>HTML/CSS, jQuery, MaterializeCSS, AOS, Chart.js, Git, GitLab, AWS, Docker, Nginx, Cerbot</p>
+            </div>
+            <div class="col s12 m8">
+              <div class="thumbnails">
+                <img src="img/hoda_portfolio.jpg" alt="gai portfolio|モックアップ（デスクトップ）">
+                <img src="img/hoda_portfolio2.jpg" alt="gai portfolio|トップ画面" class="z-depth-2">
+                <img src="img/hoda_portfolio3.jpg" alt="gai portfolio|About me" class="z-depth-2">
+                <img src="img/hoda_portfolio4.jpg" alt="gai portfolio|モックアップ（スマホ）" class="z-depth-2">
+              </div>
+              <div class="mainImage">
+                <img src="img/hoda_portfolio.jpg" alt="" class="responsive-img z-depth-2">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal">
+          <div class="modal-content">
+            <div class="col s12 m4">
+              <h4 class="center-align"><span>ルーシーのSlack Bot</span></h4>
+              <p>勉強したらルーシーがSlackのチャンネルで応援してくれるシステムです。勉強した内容をGoogle Formで入力、送信ボタンの押下をトリガーにSpreadSheetとSlackに情報を飛ばします。</p>
+              <p>ただSlackに投げるだけでなく、SpreadSheetで記録を取ることができます。</p>
+              <p>詳細は下記リンクをぜひご覧ください</p>
+              <a href="https://hodalog.com/gohoubi-system/" target="_blank" rel="noopener">朝活を気持ちよく継続するために「ご褒美システム」を構築した</a>
+              <h5 class="center-align"><span>使用言語など</span></h5>
+              <p>GAS, Slack</p>
+            </div>
+            <div class="col s12 m8">
+              <div class="thumbnails">
+                <img src="img/Lucy.jpg" alt="Lucy|モックアップ画像">
+                <img src="img/Lucy2.jpg" alt="Lucy|スラック画像" class="z-depth-2">
+                <img src="img/Lucy3.jpg" alt="Lucy|フォーム入力画像" class="z-depth-2">
+              </div>
+              <div class="mainImage">
+                <a href="https://hodalog.com/gohoubi-system/" target="_blank" rel="noopener">
+                  <img src="img/Lucy.jpg" alt="" class="responsive-img z-depth-2">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal">
+          <div class="modal-content">
+            <div class="col s12 m4">
+              <h4 class="center-align"><span>マクロ部</span></h4>
+              <p>20～30代の事務職をターゲットに、エクセルVBAの使い方をまとめるWebサイトをWordPressで作成しました。</p>
+              <p>清潔感を大事にし、ベースカラーは中性的なイメージの緑色を配しました。</p>
+              <p>フレームワークはBootstrapを使用、CSS3やJavaScriptによるアニメーションも取り入れ、楽しく閲覧できるサイトになるよう工夫しています。</p>
+              <h5 class="center-align"><span>使用言語など</span></h5>
+              <p>HTML/CSS, jQuery, PHP, Bootstrap, WordPress, Vagrant, CentOS7</p>
+            </div>
+            <div class="col s12 m8">
+              <div class="thumbnails">
+                <img src="img/macrobu1.jpg" alt="マクロ部|トップページ画像">
+                <img src="img/macrobu2.jpg" alt="マクロ部|トップページ画像2" class="z-depth-2">
+                <img src="img/macrobu3.jpg" alt="マクロ部|カテゴリーページ" class="z-depth-2">
+                <img src="img/macrobu4.jpg" alt="マクロ部|トップページ（タブレット）" class="z-depth-2">
+                <img src="img/macrobu5.jpg" alt="マクロ部|トップページ（スマホ）" class="z-depth-2">
+              </div>
+              <div class="mainImage">
+                <img src="img/macrobu1.jpg" alt="" class="responsive-img z-depth-2">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="skills" class="section valign-wrapper">
+    <div class="container">
+      <div class="row">
+        <h3 class="center">My skill set</h3>
+        <div class="col s12">
+          <p>修練のすえ身につけたスキルをグラフィカルにまとめました。広く浅くではありますがフロントからバックエンドまで幅広くスキルアップに取り組んできました。オールラウンドに対応できる点が強みですが、全体的に理解が浅く、専門性の低さが弱点です。Reactなどのモダンな技術はキャッチアップしつつも、バックエンド系の開発やデータサイエンス領域の業務に携わる比率を増やし、専門性を高めていきたいと考えています。</p>
+          <p>＊業務で実際に使用した技術のみ掲載しております。</p>
+        </div>
+        <div class="col s12 m4" data-aos-duration="700" data-aos="zoom-in" data-aos-once="true">
+          <canvas id="programmingSkillSet" width="280" height="280"></canvas>
+          <ul class="collection grey-text text-darken-2">
+            <li>5 - Super Saiyan</li>
+            <li>4 - Ninja</li>
+            <li>3 - Pokémon Master</li>
+            <li>2 - I can use it a little.</li>
+            <li>1 - Beginner</li>
+          </ul>
+        </div>
+        <div class="col s12 m4" data-aos-duration="700" data-aos="zoom-in" data-aos-once="true" data-aos-delay="250">
+          <canvas id="infraSkillSet" width="280" height="280"></canvas>
+          <ul class="collection grey-text text-darken-2">
+            <li>5 - Jedi</li>
+            <li>4 - Samurai</li>
+            <li>3 - Stand Master</li>
+            <li>2 - I can use it a little.</li>
+            <li>1 - Beginner</li>
+          </ul>
+        </div>
+        <div class="col s12 m4" data-aos-duration="700" data-aos="zoom-in" data-aos-once="true" data-aos-delay="500">
+          <canvas id="interests" width="280" height="280"></canvas>
+          <ul class="collection grey-text text-darken-2">
+            <li>5 - Platinum</li>
+            <li>4 - Gold</li>
+            <li>3 - Silver</li>
+            <li>2 - Bronze</li>
+            <li>1 - Beginner</li>
+          </ul>
+        </div>
+        <div class="col s12">
+          <p>チャートの見方としては「1: 触ったことがある程度」、「2: 実務で使用しているがもう少し習熟が必要」、「3: 実務レベルで自由に駆使できる」。という感じです。その他、実務で2ヶ月以上使用した経験のある技術について、<a href="https://stackshare.io/hodanov/my-stack" target="_blank" rel="noopener">こちらをご覧ください</a>。</p>
+        </div>
+      </div>
+      <!-- row -->
+    </div>
+    <!-- container -->
+  </div>
+
+  <div id="profile" class="section valign-wrapper">
+    <div class="container">
+      <h2 class="center">Profile</h2>
+      <p class="center">せっかくなので私のこれまでの人生を一緒に振り返りましょう。</p>
+      <div class="row">
+        <div class="tree-container">
+          <div class="leaf-row">
+            <h2>1985~</h2>
+            <div class="leaf-circle leaf-medium" style="background-image: url(img/rsz_profile_1985.jpg)" data-aos-duration="300" data-aos="zoom-in">
+            </div>
+            <div class="leaf-card" data-aos="fade-left" data-aos-duration="300">
+              <h3>北陸の田舎町にて産声をあげる</h3>
+            </div>
+            <div class="leaf-card" data-aos="fade-left" data-aos-duration="300">
+              <h3>将来の夢はペンギンになることだった</h3>
+            </div>
+          </div>
+
+          <div class="leaf-row">
+            <h2>1998~<span>中学時代</span></h2>
+            <div class="leaf-circle leaf-medium" style="background-image: url(img/rsz_profile_1998.jpg)" data-aos-duration="300" data-aos="zoom-in">
+            </div>
+            <div class="leaf-card" data-aos="fade-left" data-aos-duration="300">
+              <h3>吹奏楽サークルに参加し、音楽の楽しさを知る</h3>
+              <p>サボりながらではありましたが、大学卒業までゆるゆると続けました</p>
+            </div>
+          </div>
+
+          <div class="leaf-row">
+            <h2>2001~<span>学生時代</span></h2>
+            <div class="leaf-circle leaf-medium" style="background-image: url(img/rsz_profile_2006.jpg)" data-aos-duration="300" data-aos="zoom-in">
+            </div>
+            <div class="leaf-card" data-aos="fade-left" data-aos-duration="300">
+              <h3>高専で機械工学・大学で材料工学を学ぶ</h3>
+              <p>光触媒と呼ばれる、太陽エネルギーで有害物質を浄化する材料の研究してました</p>
+            </div>
+          </div>
+
+          <div class="leaf-row">
+            <h2>2010~<span>社会人時代</span></h2>
+            <div class="leaf-circle leaf-medium" style="background-image: url(img/rsz_profile_2010.jpg)" data-aos-duration="300" data-aos="zoom-in">
+            </div>
+            <div class="leaf-card" data-aos="fade-left" data-aos-duration="300">
+              <h3>電子部品メーカーで技術者として働き始める</h3>
+            </div>
+          </div>
+
+          <div class="leaf-row">
+            <h2>2013~</h2>
+            <div class="leaf-circle leaf-medium" style="background-image: url(img/rsz_profile_2013.jpg)" data-aos-duration="300" data-aos="zoom-in">
+            </div>
+            <div class="leaf-card" data-aos="fade-left" data-aos-duration="300">
+              <h3>製造業での働き方に疑問と苦悩を感じ始める</h3>
+              <p>電子回路のリーバスエンジニアリング、VBAプログラミング、廃材やジャンク品から実験装置を作成したり、技術者としても社会人としても多くのことを学ぶことができました。</p>
+              <p>しかし生産業務が増えてから、代替の効く一労働者としての働き方に疑問を持つようになります。</p>
+            </div>
+          </div>
+
+          <div class="leaf-row">
+            <h2>2014~</h2>
+            <div class="leaf-circle leaf-medium" style="background-image: url(img/rsz_profile_2014.jpg)" data-aos-duration="300" data-aos="zoom-in">
+            </div>
+            <div class="leaf-card" data-aos="fade-left" data-aos-duration="300">
+              <h3>スマートフォンを入手</h3>
+              <p>電子書籍やライフハック記事を読むようになります。</p>
+              <p>ちきりんの「未来の働き方を考えよう」、リンダ・グラットンの「WORK SHIFT」、植松努の「空想教室」、「7つの習慣」や「嫌われる勇気」など、影響を受けました。</p>
+            </div>
+          </div>
+
+          <div class="leaf-row">
+            <h2>2015<span>8月</span></h2>
+            <div class="leaf-circle leaf-medium" style="background-image: url(img/rsz_profile_2015_08.jpg)" data-aos-duration="300" data-aos="zoom-in">
+            </div>
+            <div class="leaf-card" data-aos="fade-left" data-aos-duration="300">
+              <h3>ブログを公開する</h3>
+              <p>「アフィリエイトで儲かってノマド生活ができたら最高だなぁ」と思い、WordPressで楽譜の読み方や楽譜作成ソフトの使い方などの情報を発信し始めます。残念ながらこれで生活できるほど稼げてはいません。しかし2017年8月現在、月間80000PVのアクセスがあり、多くの人とWeb上で繋がっています。このブログをきっかけに、私はWebサイト制作の楽しさとIT技術のすごさを実感しました。</p>
+            </div>
+          </div>
+
+          <div class="leaf-row">
+            <h2>2015<span>12月</span></h2>
+            <div class="leaf-circle leaf-medium" style="background-image: url(img/rsz_profile_2015_12.jpg)" data-aos-duration="300" data-aos="zoom-in">
+            </div>
+            <div class="leaf-card" data-aos="fade-left" data-aos-duration="300">
+              <h3>退職してIT技術を勉強する</h3>
+              <p><span>「自由にWebアプリケーションを作れるようになったら、もっとすごいことになる！」</span></p>
+              <p>一念発起、5年間勤務した会社を辞めました。退職後、職業訓練学校でHTML/CSS, JavaScript, JAVA, SQLの基礎を学びます。</p>
+            </div>
+          </div>
+
+          <div class="leaf-row">
+            <h2>2016<span>7月</span></h2>
+            <div class="leaf-circle leaf-medium" style="background-image: url(img/rsz_profile_2016.jpg)" data-aos-duration="300" data-aos="zoom-in">
+            </div>
+            <div class="leaf-card" data-aos="fade-left" data-aos-duration="300">
+              <h3>そしてIT業界へ飛び込んだ</h3>
+              <p>IT企業に拾ってもらい、現在はWebエンジニアとして働いています。</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s12 m8 offset-m2 closing-profile">
+          <h2 data-aos="fade-in" data-aos-duration="700" data-aos-once="true">いろんな人への感謝とエンジニアリングへの想い</h2>
+          <div data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
+            <p>日々の忙しさについ忘れてしまいがちですが、今の私があるのは色んな人たちのサポートのおかげです。退職の際に応援してくれた人、技術的に未熟な私にもお仕事を紹介してくださるエージェント、スキルを磨ける環境で働かせてくださったクライアントに、本当に心から感謝しています。</p>
+            <p>様々なWebサービスに触れて人生が変わる体験をしたように、今後は消費するだけでなく、体験価値を届けられるようなエンジニアになりたい。私自身が抱えている課題や周りの身近な人が抱えている問題をエンジニアリングで解決できるようになりたいと考えています。</p>
+            <p>また、エンジニアリングが好きなので、生涯エンジニアとして社会に貢献し続けたいとも思っています。</p>
+            <p>それを実現するにはどうしたらいいのか。</p>
+            <p>日々進化し続ける技術をキャッチアップするための研鑽はもちろんのこと、クライアントの悩みや課題を解決できるよう、クライアントの目線を培っていく必要があります。</p>
+            <p>まだまだ至らない点はたくさんありますが、時代に合わせた技術を追いかけつつ、クライアントに寄り添ったエンジニアリングができるよう、心がけていきます。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="services" class="section valign-wrapper">
+    <div class="container">
+      <div class="row">
+        <h2 class="center grey-text text-darken-3">Business and Services</h2>
+        <div class="col s12 m8 offset-m2">
+          <p class="center grey-text text-darken-3 intro">「Webエンジニアって何をやっているの？」</p>
+          <p class="grey-text text-darken-3">WebエンジニアはWebサイトやWebアプリケーションの開発・運用を行う技術者です。私は現在、運用・保守・サポート業務をメインに携わっています。最近、やっと開発系のお仕事にも手が出せるレベルになってきたところです。プライベートではコツコツとスキルアップに取り組みつつ、趣味でブログとプログラミングを行なっています。</p>
+        </div>
+        <div class="image-wrapper col s12 m6" data-aos="flip-left" data-aos-duration="700" data-aos-once="true">
+          <div class="div-cover" style="background-image: url(img/blog.jpg)">
+          </div>
+          <div class="div-content valign-wrapper center-align">
+            <div class="center-align">
+              <p>社会通念にとらわれない<br>自由な生き方を目指しています。</p>
+              <a href="https://hodalog.com" target="_blank" rel="noopener" class="waves-effect waves-light btn led-color-of-btn">Click me!</a>
+            </div>
+          </div>
+        </div>
+        <div class="image-wrapper col s12 m6" data-aos="flip-left" data-aos-delay="200" data-aos-duration="700" data-aos-once="true">
+          <div class="div-cover" style="background-image: url(img/business.jpg)">
+          </div>
+          <div class="div-content valign-wrapper center-align">
+            <div class="center-align">
+              <p>お仕事の内容について<br>もっと詳しく知りたいですか？</p>
+              <a class="waves-effect waves-light btn led-color-of-btn">準備中</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="contact" class="section valign-wrapper">
+    <div class="container">
+      <div class="row">
+        <h2 class="center grey-text text-darken-3">Contact me</h2>
+        <div class="col s12 m8 offset-m2">
+          <p class="comment-text grey-text text-darken-3">最後までご覧いただきありがとうございました。このサイトを通して、私のことを少しでも知っていただけたのなら嬉しいです。もしこのサイトや私について何かコメントがありましたら、下記フォームをご利用ください。</p>
+        </div>
+        <div class="col s12" data-aos="fade-up" data-aos-duration="500" data-aos-once="true">
+          <form method="POST" action="https://formspree.io/hoda.laboratory@gmail.com">
+            <div class="input-field col s6 offset-m2 m4">
+              <input id="name" name="name" type="text" required>
+              <label for="name">Name</label>
+            </div>
+            <div class="input-field col s6 m4">
+              <input id="email" name="email" type="email" required>
+              <label for="email">Email</label>
+            </div>
+            <div class="input-field col s12 offset-m2 m8">
+              <textarea id="textarea" name="message" class="materialize-textarea" required></textarea>
+              <label for="textarea">Comment</label>
+            </div>
+            <div class="input-field col s12 offset-m2 m8 center-align">
+              <button type="submit" class="waves-effect waves-light btn led-color-of-btn">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="closing-banner-container" class="valign-wrapper led">
+    <div class="container">
+      <div class="row center">
+        <h2 class="header col s12 light">Thank you for coming!</h2>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer-section led-color-of-footer valign-wrapper">
+    <div class="scroll-to-top-btn">
+      <a href="#" class="waves-effect waves-light led-color-of-btn"><i class="material-icons">keyboard_arrow_up</i></a>
+    </div>
+    <div class="container copyright">
+      <p>© 2017 Gai Nishida</p>
+    </div>
+  </footer>
+
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script
+  src="https://code.jquery.com/color/jquery.color-2.1.2.min.js"
+  integrity="sha256-H28SdxWrZ387Ldn0qogCzFiUDDxfPiNIyJX7BECQkDE="
+  crossorigin="anonymous"></script>
+  <script src="aos-master/dist/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
+  <script src="materialize/js/materialize.min.js"></script>
+  <script>
+    var versioningNum = new Date().getTime()
+    var jsURL = 'js/custom.js?ver=' + versioningNum
+    var jsElement=document.createElement('script')
+    jsElement.setAttribute('src', jsURL)
+    document.getElementsByTagName("body")[0].appendChild(jsElement)
+  </script>
+
+  </body>
+</html>
