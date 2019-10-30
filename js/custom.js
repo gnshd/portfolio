@@ -14,12 +14,6 @@ $(document).ready(function(){
       })
     
     // -----Scroll to hogehoge
-      $('a[href*=\\#about-this-site]').click(function(event){
-        event.preventDefault()
-        $('html, body').animate({
-            scrollTop: $( $.attr(this, 'href') ).offset().top
-        }, 1000);
-      })
       $('a[href*=\\#about-me]').click(function(event){
         event.preventDefault()
         $('html, body').animate({
@@ -32,6 +26,12 @@ $(document).ready(function(){
             scrollTop: $( $.attr(this, 'href') ).offset().top
         }, 1000);
       })
+      $('a[href*=\\#portfolio]').click(function(event){
+        event.preventDefault()
+        $('html, body').animate({
+            scrollTop: $( $.attr(this, 'href') ).offset().top
+        }, 1000);
+      })      
       $('a[href*=\\#skills]').click(function(event){
         event.preventDefault()
         $('html, body').animate({
