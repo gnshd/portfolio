@@ -32,7 +32,7 @@ $(document).ready(function(){
           scrollTop: $( $.attr(this, 'href') ).offset().top
       }, 1000);
     })
-    $('a[href*=\\#portfolio]').click(function(event){
+    $('a[href*=\\#career]').click(function(event){
       event.preventDefault()
       $('html, body').animate({
           scrollTop: $( $.attr(this, 'href') ).offset().top
@@ -44,19 +44,7 @@ $(document).ready(function(){
           scrollTop: $( $.attr(this, 'href') ).offset().top
       }, 1000);
     })
-    $('a[href*=\\#projects]').click(function(event){
-      event.preventDefault()
-      $('html, body').animate({
-          scrollTop: $( $.attr(this, 'href') ).offset().top
-      }, 1000);
-    })
-    $('a[href*=\\#services]').click(function(event){
-      event.preventDefault()
-      $('html, body').animate({
-          scrollTop: $( $.attr(this, 'href') ).offset().top
-      }, 1000);
-    })
-    $('a[href*=\\#contact]').click(function(event){
+    $('a[href*=\\#production]').click(function(event){
       event.preventDefault()
       $('html, body').animate({
           scrollTop: $( $.attr(this, 'href') ).offset().top
