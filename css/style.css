@@ -1,3 +1,7 @@
+html{
+  scrollbar-color: #2a2c2e #1c1e1f;
+}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, Meiryo, sans-serif;
   color: #424242;
@@ -23,8 +27,24 @@ nav ul li a,
 p {
   line-height: 2rem;
 }
-.button-collapse {
-  color: #26a69a;
+.button-collapse{
+  position: fixed;
+  right: 15px;
+  top: 15px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background: rgba(52, 58, 64, .5);
+  line-height: 50px;
+  z-index: 999;
+  border-radius: .25rem !important;
+}
+
+.button-collapse:hover {
+  background: #343a40;
 }
 @media (max-width: 414px) {
   h2 {
@@ -253,6 +273,7 @@ header ul li .collapsible .collapsible-header {
   0% { transform:translateY(0px); }
   100% { transform:translateY(10px); }
 }
+
 .scroll-to-bottom-btn a {
   height: 85px;
 }

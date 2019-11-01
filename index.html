@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja">
 
-<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+<head>
 
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,7 +11,6 @@
   <title>gai portfolio</title>
 
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Capriola" rel="stylesheet">
   <link rel="stylesheet" href="materialize/css/materialize.min.css">
   <link rel="stylesheet" href="aos-master/dist/aos.css">
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen">
@@ -22,13 +21,12 @@
 <body>
 
   <header>
-    <div class="navbar-fixed">
-      <nav>
+
+    <div class="navbar-fixed hide-on-med-and-down" style="position: absolute;">
+      <nav data-aos-anchor="#about-me" data-aos-anchor-placement="top-center" data-aos="slide-down">
         <div class="nav-wrapper container">
-          <a href="#" data-activates="nav-mobile" class="button-collapse"><i
-              class="material-icons led-color-of-icon">menu</i></a>
           <div style="width: 100%;display: flex;justify-content: center;align-items: center;">
-            <ul class="left hide-on-med-and-down">
+            <ul class="left">
               <li><a href="#" class="scroll-to-top-li">トップ</a></li>
               <li><a href="#about-me">自己紹介</a></li>
               <li><a href="#profile">プロフィール</a></li>
@@ -36,10 +34,12 @@
               <li><a href="#skills">スキル</a></li>
             </ul>
           </div>
-
         </div>
       </nav>
     </div>
+
+    <a href="#" data-activates="nav-mobile" class="button-collapse hide-on-large-only" data-aos-anchor="#about-me" data-aos-anchor-placement="top-center" data-aos="zoom-in"><i class="material-icons">menu</i></a>
+
     <ul id="nav-mobile" class="side-nav">
       <li><a href="#" class="scroll-to-top-li">トップ</a></li>
       <li><a href="#about-me">自己紹介</a></li>
@@ -47,23 +47,22 @@
       <li><a href="#portfolio">業務経歴</a></li>
       <li><a href="#skills">スキル</a></li>
     </ul>
+
   </header>
 
-  <div id="top-banner-container" class="valign-wrapper led">
+  <div id="top-banner-container" class="valign-wrapper led" style="height: 100vh;">
     <div class="container">
       <div class="row center">
+
         <h1 class="header col s12 text-lighten-2" data-aos="zoom-in" data-aos-duration="700" data-aos-once="true">Gai
           Portfolio</h1>
-        <h5 class="text-for-desktop" data-aos="fade-up" data-aos-delay="250" data-aos-duration="700"
-          data-aos-once="true">Web Engineer</h5>
+        <h5 class="text-for-desktop" data-aos="fade-up" data-aos-delay="250" data-aos-duration="700" data-aos-once="true">Web Engineer</h5>
         <h5 class="text-for-phone" data-aos="fade-up" data-aos-delay="250" data-aos-duration="700" data-aos-once="true">
           Web Engineer</h5>
         <div class="controller" data-aos="fade-up" data-aos-delay="750" data-aos-duration="700">
           <div id="four-way-button"></div>
         </div>
-
-        <div class="scroll-to-bottom-btn text-for-desktop" data-aos="fade-up" data-aos-delay="1000"
-          data-aos-duration="700">
+        <div class="scroll-to-bottom-btn text-for-desktop" data-aos-anchor="#top-banner-container" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="700" style="position: absolute;left: 50%;bottom: 20px;transform: translateX(-50%);-webkit-transform: translateX(-50%);">
           <a href="#about-me" class=""><i class="material-icons waves-effect waves-light">keyboard_arrow_down</i></a>
         </div>
 
@@ -78,8 +77,7 @@
 
         <div class="col s12">
           <div class="center">
-            <img id="tie" class="center" src="myimg/tie_256x256.png" alt="tie" width="150" height="150"
-              data-aos-duration="300" data-aos="zoom-in" data-aos-once="true">
+            <img id="tie" class="center" src="myimg/tie_256x256.png" alt="tie" width="150" height="150" data-aos-duration="300" data-aos="zoom-in" data-aos-once="true">
           </div>
         </div>
 
@@ -185,12 +183,14 @@
   <div id="portfolio" class="section valign-wrapper">
     <div class="container">
       <div class="row">
+
         <h3 class="center">Portfolio</h3>
         <div class="col s12">
           <p>
             準備中です。
           </p>
         </div>
+
       </div>
     </div>
   </div>
@@ -198,6 +198,7 @@
   <div id="skills" class="section valign-wrapper">
     <div class="container">
       <div class="row">
+
         <h3 class="center">Skill</h3>
         <div class="col s12">
           <p>
@@ -217,10 +218,8 @@
     </div>
   </footer>
 
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/color/jquery.color-2.1.2.min.js"
-    integrity="sha256-H28SdxWrZ387Ldn0qogCzFiUDDxfPiNIyJX7BECQkDE=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/color/jquery.color-2.1.2.min.js" integrity="sha256-H28SdxWrZ387Ldn0qogCzFiUDDxfPiNIyJX7BECQkDE=" crossorigin="anonymous"></script>
   <script src="aos-master/dist/aos.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
   <script src="materialize/js/materialize.min.js"></script>
