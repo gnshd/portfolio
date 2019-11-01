@@ -32,7 +32,7 @@ $(document).ready(function(){
           scrollTop: $( $.attr(this, 'href') ).offset().top
       }, 1000);
     })
-    $('a[href*=\\#portfolio]').click(function(event){
+    $('a[href*=\\#works]').click(function(event){
       event.preventDefault()
       $('html, body').animate({
           scrollTop: $( $.attr(this, 'href') ).offset().top
