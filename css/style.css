@@ -198,7 +198,7 @@ header ul li .collapsible .collapsible-header {
 
 /* -----Card----- */
 .card span.card-title {
-  text-shadow: 2px 2px 1px #424242;
+  font-size:1.25rem;
 }
 .card span.card-title span {
   font-size:3rem;
