@@ -273,6 +273,7 @@ header ul li .collapsible .collapsible-header {
   0% { transform:translateY(0px); }
   100% { transform:translateY(10px); }
 }
+
 .scroll-to-bottom-btn a {
   height: 85px;
 }
