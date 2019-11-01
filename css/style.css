@@ -1,5 +1,5 @@
 html{
-  scrollbar-color: #2a2c2e #1c1e1f;
+  scrollbar-color: #30416d #21325e;
 }
 
 body {
@@ -763,43 +763,19 @@ color: #eeeeee;
 .section-profile .container {
   position: relative;
 }
-.profile-intro:before {
-  width: 5px;
-  height: 155px;
-  background: #22325e;
-  content: '';
-  position: absolute;
-  right: 35%;
-  margin-right: -4px;
-  bottom: -76%;
-  -moz-border-radius: 2px 2px 0px 0px;
-  -webkit-border-radius: 2px 2px 0px 0px;
-  border-radius: 2px 2px 0px 0px;
-}
-.profile-intro:after {
-  width: 39%;
-  height: 0px;
-  border-bottom: 5px solid #22325e;
-  content: '';
-  position: absolute;
-  right: 35%;
-  margin-right: -1px;
-  bottom: -76%;
-}
 .tree-container {
   width: 100%;
   position: relative;
   text-align: left;
   float: left;
   overflow: hidden;
-  padding: 20px 0.75rem 0;
 }
 .tree-container:before {
   position: absolute;
   width: 5px;
   background: #22325e;
-  left: 0.75rem;
-  margin-left: 25%;
+  left: 0;
+  margin-left: 20%;
   content: '';
   height: 100%;
 }
@@ -807,9 +783,9 @@ color: #eeeeee;
   position: relative;
 }
 .leaf-card {
-  width: 73%;
+  width: 78%;
   position: relative;
-  left: 27%;
+  left: 22%;
   padding: 15px 30px;
   margin-bottom: 10px;
   background: rgba(34, 50, 91, 0.7);
