@@ -5,13 +5,13 @@ html{
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, Meiryo, sans-serif;
   color: #424242;
-  background-image: url(../myimg/bg_500x500.jpg);
+  background-image: url(../img/bg_500x500.jpg);
   background-repeat: repeat;
   background-attachment: fixed;
 }
 
 #top-banner-container {
-  background-image: url(../myimg/bg_top.png);
+  background-image: url(../img/bg_top.png);
   background-repeat: repeat;
   background-attachment: fixed;
 }
@@ -658,12 +658,6 @@ color: #eeeeee;
 }
 #about-me .row .col.s6.m3 {
   padding: 0 0.5rem;
-}
-#about-me #hodacat {
-  border: 3px solid #ccc;
-  border-radius: 50%;
-  background-color: #fff;
-  margin-right: 1rem;
 }
 
 /* -----Skills section----- */
