@@ -88,11 +88,11 @@ p {
 /* -----navbar----- */
 nav ul a,
 nav {
-  color: #555;
+  color: rgb(255, 255, 255);
 }
 nav {
   box-shadow: none;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: #22325ec2;
 }
 nav ul li a {
   -webkit-transition: all 0.2s ease-in-out 0s;
