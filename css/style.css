@@ -9,7 +9,6 @@ body {
   background-image: url(../img/bg_500x500.jpg);
   background-repeat: repeat;
   background-attachment: fixed;
-  position: relative;
 }
 
 #top-banner-container {
@@ -20,25 +19,25 @@ body {
 .bg_top_0 {
   background-image: url(../img/bg_top_0.svg);
   position: absolute;
-  height: 100vh;
+  height: 100%;
   width: 100%;
 }
 .bg_top_1 {
   background-image: url(../img/bg_top_1.svg);
   position: absolute;
-  height: 100vh;
+  height: 100%;
   width: 100%;
 }
 .bg_top_2 {
   background-image: url(../img/bg_top_2.svg);
   position: absolute;
-  height: 100vh;
+  height: 100%;
   width: 100%;
 }
 .bg_top_last {
   background: linear-gradient(-135deg, #ddcda1b0, #ffffff00);
   position: absolute;
-  height: 100vh;
+  height: 100%;
   width: 100%;
 }
 
