@@ -15,7 +15,6 @@
   <link rel="stylesheet" href="aos-master/dist/aos.css">
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen">
   <link rel="shortcut icon" type="image/png" href="img/logo_32x32.png">
-
 </head>
 
 <body>
@@ -58,25 +57,28 @@
 
   </header>
 
-  <div id="top-banner-container" class="valign-wrapper led" style="height: 100vh;">
+  <div id="top-banner-container" class="valign-wrapper" style="height: 100vh;">
+
+    <div class="bg_top_0" data-aos="fade-left" data-aos-anchor="#top-banner-container" data-aos-duration="700" data-aos-once="true"></div>
+    <div class="bg_top_1" data-aos="fade-right" data-aos-anchor="#top-banner-container" data-aos-delay="250" data-aos-duration="700" data-aos-once="true"></div>
+    <div class="bg_top_2" data-aos="fade-down" data-aos-anchor="#top-banner-container" data-aos-delay="500" data-aos-duration="700" data-aos-once="true"></div>
+
     <div class="container">
       <div class="row center">
 
-        <h1 class="header col s12 text-lighten-2" data-aos="zoom-in" data-aos-duration="700" data-aos-once="true">Gai's
+        <h1 class="header col s12 text-lighten-2" data-aos="zoom-in" data-aos-delay="750" data-aos-duration="700" data-aos-once="true">Gai's
           Portfolio</h1>
-        <h5 class="text-for-desktop" data-aos="fade-up" data-aos-delay="250" data-aos-duration="700" data-aos-once="true">Web Engineer</h5>
-        <h5 class="text-for-phone" data-aos="fade-up" data-aos-delay="250" data-aos-duration="700" data-aos-once="true">
+        <h5 class="text-for-desktop" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="700" data-aos-once="true">Web Engineer</h5>
+        <h5 class="text-for-phone" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="700" data-aos-once="true">
           Web Engineer</h5>
-        <div class="controller" data-aos="fade-up" data-aos-delay="750" data-aos-duration="700">
-          <div id="four-way-button"></div>
-        </div>
-        <div class="scroll-to-bottom-btn text-for-desktop" data-aos-anchor="#top-banner-container" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="700"
+        <div class="scroll-to-bottom-btn text-for-desktop" data-aos-anchor="#top-banner-container" data-aos="fade-up" data-aos-delay="1250" data-aos-duration="700"
           style="position: absolute;left: 50%;bottom: 20px;transform: translateX(-50%);-webkit-transform: translateX(-50%);">
           <a href="#about-me" class=""><i class="material-icons waves-effect waves-light">keyboard_arrow_down</i></a>
         </div>
 
       </div>
     </div>
+
   </div>
 
   <div id="about-me" class="section valign-wrapper">
@@ -502,28 +504,30 @@
             <p class="center-align project-title grey-text text-darken-3">ホームページ</p>
           </div>
         </div>
-        
+
         <div class="modal" id="modal0" style="z-index: 1003;">
-            <div class="modal-content">
-              <div class="col s12">
-                <h4 class="center-align"><span>ポートフォリオ</span></h4>
-                <p>自分自身のポートフォリオです。</p>
-                <h5 class="center-align"><span>使用言語など</span></h5>
-                <p> HTML/CSS, jQuery, MaterializeCSS, AOS, Git, GitHub, Netlify</p>
-              </div>
+          <div class="modal-content">
+            <div class="col s12">
+              <h4 class="center-align"><span>ポートフォリオ</span></h4>
+              <p>自分自身のポートフォリオです。</p>
+              <h5 class="center-align"><span>使用言語など</span></h5>
+              <p> HTML/CSS, jQuery, MaterializeCSS, AOS, Git, GitHub, Netlify</p>
             </div>
-          <div class="close-button"><a href="#!" class="btn-floating waves-effect waves-light"><i class="material-icons">close</i></a></div></div>
-  
-          <div class="modal" id="modal1" style="z-index: 1005;">
-            <div class="modal-content">
-              <div class="col s12">
-                <h4 class="center-align"><span>ホームページ</span></h4>
-                <p>JAMstackな開発を自社に提案するために作ったテスト用ホームページです。</p>
-                <h5 class="center-align"><span>使用言語など</span></h5>
-                <p>HTML/CSS, JavaScript, Bulma, HUGO, Git,GitHub, GitHubIssues, Netlify, NetlifyForms, VScode</p>
-              </div>
+          </div>
+          <div class="close-button"><a href="#!" class="btn-floating waves-effect waves-light"><i class="material-icons">close</i></a></div>
+        </div>
+
+        <div class="modal" id="modal1" style="z-index: 1005;">
+          <div class="modal-content">
+            <div class="col s12">
+              <h4 class="center-align"><span>ホームページ</span></h4>
+              <p>JAMstackな開発を自社に提案するために作ったテスト用ホームページです。</p>
+              <h5 class="center-align"><span>使用言語など</span></h5>
+              <p>HTML/CSS, JavaScript, Bulma, HUGO, Git,GitHub, GitHubIssues, Netlify, NetlifyForms, VScode</p>
             </div>
-          <div class="close-button"><a href="#!" class="btn-floating waves-effect waves-light"><i class="material-icons">close</i></a></div></div>
+          </div>
+          <div class="close-button"><a href="#!" class="btn-floating waves-effect waves-light"><i class="material-icons">close</i></a></div>
+        </div>
 
       </div>
     </div>
