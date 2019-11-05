@@ -7,6 +7,14 @@
 	.st1{fill:#B1B1B1;}
 	.st2{fill:#BABABA;}
 </style>
+  <defs>
+    <!-- x1、y1はグラデーションの始点、x2、y2はグラデーションの終点 -->
+    <linearGradient id="js-gradient" x1="0%" y1="0%" x2="100%" y2="100%" gradientUnits="userSpaceOnUse">
+      <!-- 始点は赤、終点は青に設定 -->
+      <stop id="js-gradient__stop-1" offset="0%" stop-color="red"/>
+      <stop id="js-gradient__stop-2" offset="100%" stop-color="blue"/>
+    </linearGradient>
+  </defs>
 <g>
 	<g>
 		<polygon class="st0" points="64,36.999 0,73.999 0,148 64,110.999 		"/>
