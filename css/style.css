@@ -76,7 +76,7 @@ p {
 .button-collapse:hover {
   background: #343a40;
 }
-@media (max-width: 414px) {
+@media (max-width: 480px) {
   h2 {
     font-size: 2rem;
   }
@@ -263,7 +263,7 @@ header ul li .collapsible .collapsible-header {
 .section-for-phone {
   display: none;
 }
-@media (max-width: 414px) {
+@media (max-width: 480px) {
   .text-for-desktop,
   .section-for-desktop {
     display: none;
@@ -936,7 +936,7 @@ textarea.materialize-textarea:focus:not([readonly]) + label.white-input {
 .tree-container h3 {
   font-size: 28px;
 }
-@media (max-width: 414px) {
+@media (max-width: 480px) {
   .tree-container:before {
     margin-left: 15%;
   }
