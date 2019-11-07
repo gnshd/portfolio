@@ -9,6 +9,8 @@ body {
   background-image: url(../img/bg_500x500.jpg);
   background-repeat: repeat;
   background-attachment: fixed;
+  width: 100vw;
+  overflow-x:hidden;
 }
 
 #top-banner-container {
