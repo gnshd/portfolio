@@ -1,5 +1,7 @@
 html {
   scrollbar-color: #30416d #21325e;
+  width: 100vw;
+  overflow-x:hidden;
 }
 
 body {
