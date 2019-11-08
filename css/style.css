@@ -14,10 +14,16 @@ body {
 }
 
 #top-banner-container {
+  background-color: #BABABA;
   background-image: url(../img/bg_top.svg);
   position: relative;
 }
-
+.bg_top_00 {
+  background-color: #30416d;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+}
 .bg_top_0 {
   background-image: url(../img/bg_top_0.svg);
   position: absolute;
