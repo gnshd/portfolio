@@ -9,13 +9,21 @@ body {
   background-image: url(../img/bg_500x500.jpg);
   background-repeat: repeat;
   background-attachment: fixed;
+  width: 100vw;
+  overflow-x:hidden;
 }
 
 #top-banner-container {
+  background-color: #BABABA;
   background-image: url(../img/bg_top.svg);
   position: relative;
 }
-
+.bg_top_00 {
+  background-color: #30416d;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+}
 .bg_top_0 {
   background-image: url(../img/bg_top_0.svg);
   position: absolute;
