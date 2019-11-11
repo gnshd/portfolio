@@ -18,6 +18,10 @@ $(document).ready(function(){
       startingTop: '0%',
       endingTop: '5%'
     })
+
+    if ($('#scroll-to-bottom-btn').css('display')=='none'){
+      $("html,body").animate({scrollTop:$('#top-banner-container').offset().top}, 1000)
+    };
   
   // -----Scroll to hogehoge
     $('a[href*=\\#about-me]').click(function(event){
