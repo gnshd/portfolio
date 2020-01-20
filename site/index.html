@@ -10,9 +10,9 @@
 
   <title>Gai's Portfolio</title>
 
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="materialize/css/materialize.min.css">
-  <link rel="stylesheet" href="aos-master/dist/aos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen">
   <link rel="shortcut icon" type="image/png" href="img/logo_32x32.png">
 </head>
@@ -162,7 +162,7 @@
             <h2>2018<span>19歳</span></h2>
             <div class="leaf-card" data-aos="fade-left" data-aos-duration="300">
               <h3>妻との出会いをきっかけに、香川県へ居住</h3>
-            </div>                       
+            </div>
             <div class="leaf-card" data-aos="fade-left" data-aos-duration="300">
               <h3>派遣社員として食品工場に就職する</h3>
               <p>当初はライン生産での盛付担当だったが、リーダーの補佐や、新規導入された自動化機器の運用、調節、なども担当するようになる。</p>
@@ -192,7 +192,7 @@
             <div class="leaf-card" data-aos="fade-left" data-aos-duration="300">
               <h3>JAMStackなホームページを構築する</h3>
               <p>NetlifyやGitHubPagesなどのホスティングサービスと、GatsbyやHUGOなどの、静的サイトジェネレーターを利用する。</p>
-            </div>            
+            </div>
           </div>
 
           <div class="leaf-row">
@@ -530,7 +530,23 @@
                 </div>
               </div>
             </a>
-            <p class="center-align project-title grey-text text-darken-3">ホームページ</p>
+            <p class="center-align project-title grey-text text-darken-3">MIST高松 - ホームページ</p>
+          </div>
+        </div>
+
+        <div class="col s12 m6">
+          <div data-aos="fade-up" data-aos-once="true" class="aos-init aos-animate" data-aos-duration="700">
+            <a class="modal-trigger" aria-label="Lind to modal window" href="#modal2">
+              <div class="card hoverable">
+                <div class="card-image valign-wrapper">
+                  <div class="image-wrapper">
+                    <div class="div-cover">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <p class="center-align project-title grey-text text-darken-3">CherryERC - ホームページ</p>
           </div>
         </div>
 
@@ -565,6 +581,21 @@
           <div class="close-button"><a href="#!" class="btn-floating waves-effect waves-light"><i class="material-icons">close</i></a></div>
         </div>
 
+        <div class="modal" id="modal2" style="z-index: 1007;">
+          <div class="modal-content">
+            <div class="col s12">
+              <h4 class="center-align"><span>英語教室のホームページ</span></h4>
+              <p>体験レッスン予約ページや、お問合せフォーム</p>
+              <p>CMS機能を使って誰でも簡単にコンテンツの編集やブログを書くことができるようにしました。</p>
+              <p><a href="https://cherry.acecore.systems">https://cherry.acecore.systems</a></p>
+              <p><a href="https://github.com/gnshd/CherryERC_homepage">https://github.com/gnshd/CherryERC_homepage</a></p>
+              <h5 class="center-align"><span>使用言語など</span></h5>
+              <p>HTML/CSS, JavaScript, Bulma, AOS, HUGO, Git,GitHub, GitHubIssues, Netlify, NetlifyForms, NetlifyCMS, VScode</p>
+            </div>
+          </div>
+          <div class="close-button"><a href="#!" class="btn-floating waves-effect waves-light"><i class="material-icons">close</i></a></div>
+        </div>
+
       </div>
     </div>
   </div>
@@ -579,10 +610,10 @@
     </div>
   </footer>
 
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/color/jquery.color-2.1.2.min.js" integrity="sha256-H28SdxWrZ387Ldn0qogCzFiUDDxfPiNIyJX7BECQkDE=" crossorigin="anonymous"></script>
-  <script src="aos-master/dist/aos.js"></script>
-  <script src="materialize/js/materialize.min.js"></script>
+  <script defer src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script defer src="https://code.jquery.com/color/jquery.color-2.1.2.min.js" integrity="sha256-H28SdxWrZ387Ldn0qogCzFiUDDxfPiNIyJX7BECQkDE=" crossorigin="anonymous"></script>
+  <script defer src="materialize/js/materialize.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
   <script>
     var versioningNum = new Date().getTime()
     var jsURL = 'js/custom.js?ver=' + versioningNum
