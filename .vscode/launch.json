@@ -1,14 +1,14 @@
 {
-    // IntelliSense を使用して利用可能な属性を学べます。
-    // 既存の属性の説明をホバーして表示します。
-    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "name": "Launch Microsoft Edge and open the Elements tool",
-            "request": "launch",
-            "type": "vscode-edge-devtools.debug",
-            "url": "http://localhost:5500/site"
-        }
-    ]
+  // IntelliSense を使用して利用可能な属性を学べます。
+  // 既存の属性の説明をホバーして表示します。
+  // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch Microsoft Edge and open the Elements tool",
+      "request": "launch",
+      "type": "vscode-edge-devtools.debug",
+      "url": "http://127.0.0.1:5500/site"
+    }
+  ]
 }
